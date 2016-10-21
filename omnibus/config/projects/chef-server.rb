@@ -33,6 +33,7 @@ override :lua, version: "5.1.5"
 override :ruby, version: "2.2.5"
 override :rubygems, version: "2.6.6"
 override :'omnibus-ctl', version: "master"
+override :openssl, version: "1.0.2j"
 override :bundler, version: "1.12.5"
 # creates required build directories
 dependency "preparation"
