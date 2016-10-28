@@ -241,6 +241,8 @@ default['private_chef']['opscode-solr4']['max_commit_docs'] = 1000
 default['private_chef']['opscode-solr4']['auto_soft_commit'] = 1000
 default['private_chef']['opscode-solr4']['commit_interval'] = 60000 # in ms
 default['private_chef']['opscode-solr4']['poll_seconds'] = 20 # slave -> master poll interval in seconds, max of 60 (see solrconfig.xml.erb)
+default['private_chef']['opscode-solr4']['elasticsearch_shard_count'] = 5
+default['private_chef']['opscode-solr4']['elasticsearch_replica_count'] = 1
 
 ####
 # Chef Expander
